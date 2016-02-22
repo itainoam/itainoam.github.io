@@ -1,0 +1,33 @@
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Site settings
+permalink: /:title.html
+exclude: ["Makefile", "README.md", "./_/", "CNAME", "node_modules", "vendor"]
+sass:
+  style: compressed
+
+# Site info
+url: http://ricostacruz.com/til
+title: Today I Learned
+
+# Google analytics
+analytics:
+  hostname:
+  id:
+
+# Collections
+collections:
+  - authors
+
+# Default variables
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "article"
+      tags: []
+      author: Itai Noam

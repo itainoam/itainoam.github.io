@@ -1,0 +1,29 @@
+---
+type: blog
+---
+{% include head.html %}
+{% include body.html %}
+{% include site-header.html %}
+
+
+{% assign post = site.posts[0] %}
+{% include post.html post=post content=post.content %}
+
+
+
+<div class='post-index' id='toc'>
+  <div class='container'>
+    <h3 class='bottom-space-1'>Previously on TIL:</h3>
+    {% for post in site.posts %}
+    <a class='post-index-item' href="{{ base }}{{ post.url }}">
+        <span class='date'>{{ post.date | date_to_string }}</span>
+        <span class='article'>{{ post.title }}</span>
+        <strong class='tag'>{{ post.tags | first }}</strong>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+
+{% include about-the-site.html %}
+{% include end.html %}
