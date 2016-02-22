@@ -1,11 +1,11 @@
 ---
-title: Generating Lines Of code report
+title: Generating Lines Of Code Report
 tags: [JavaScript]
-description: Keep large libraries sane using Browserify. With ES6 and CoffeeScript support!
+description: Generating Lines Of Code Report
 ---
-In order to compare two projects I needed compare LOC. This command generates a report and saves it to CSV.
+In order to compare two projects I needed to count LOC. This command generates a report and saves it to CSV.
 
 ```
-NPM install - g cloc
+npm install - g cloc
 cloc . --global --exclude-dir=bower_components,common,stylesheets,ihub,.idea --csv --out=loc.csv
 ```
