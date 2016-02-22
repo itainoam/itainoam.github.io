@@ -16,8 +16,8 @@ title: Today I Learned
 
 # Google analytics
 analytics:
-  hostname:
-  id:
+  hostname:"itainoam.github.com"
+  id:"UA-74146416-1"
 
 # Collections
 collections:
