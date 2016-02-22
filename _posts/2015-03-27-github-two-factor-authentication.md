@@ -12,9 +12,6 @@ Two-factor authentication in GitHub is pretty simple to set up, though the exact
 ### Enable 2FA
 Enable [2 factor authentication](https://github.com/settings/security) on the GitHub website (Settings → Security → Two Factor Authentication).
 
-### Prepare your phone
-Install [Google Authenticator](https://en.wikipedia.org/wiki/Google_Authenticator). Works for iOS and Android. In Authenticator, tap *Add*, then *Scan Barcode*. Take a picture of the QR code on your computer. ([More info on apps](https://help.github.com/articles/configuring-two-factor-authentication-via-a-totp-mobile-app/))
-
 ### Enable git credential caching
 On your computer, [enable caching your GitHub HTTPS credentials](https://help.github.com/articles/caching-your-github-password-in-git/). This allows you to store your 2FA token and not get asked for it everytime.
 
