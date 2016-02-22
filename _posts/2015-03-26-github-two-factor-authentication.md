@@ -8,7 +8,6 @@ Two-factor authentication in GitHub is pretty simple to set up, though the exact
 {:.brief-intro.center}
 
 ----
-
 ### Enable 2FA
 Enable [2 factor authentication](https://github.com/settings/security) on the GitHub website (Settings → Security → Two Factor Authentication).
 
