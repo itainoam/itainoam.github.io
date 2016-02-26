@@ -1,6 +1,7 @@
 ---
 title: Jump Easily Between Folders Using Autojump
 tags: [Development]
+description: Jump Easily Between Folders Using Autojump
 ---
 
 [Autojump](https://github.com/wting/autojump) makes it very easy to navigate between folders. 
