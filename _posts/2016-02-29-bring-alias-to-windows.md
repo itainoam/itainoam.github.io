@@ -1,11 +1,12 @@
 ---
 title: Bringing Alias to Windows
-description: Bringing Alias to Windows.
-image: assets/bg/conemu_alias.jpg
+description: Bringing Alias to Windows
+image: images/conemu_alias.jpg
 tags: [Development]
 ---
+Many times I found myself missing the ```alias``` shell command.
+The top [stackoverflow solution](http://stackoverflow.com/questions/20530996/aliases-in-windows-command-prompt) is somewhat convoluted and make use of doskey.
 
-![Image](./assets/bg/conemu_alias.jpg){:style='max-width:600px;margin-bottom:-130px'}
-{:.full-image.cropped.bottom-space-4}
+It turns out it's really easy to do using the excellent [ConEmu](https://conemu.github.io/) under Settings > Startup > Environment.
 
-Alias
+![Image](./images/conemu_alias.jpg)
