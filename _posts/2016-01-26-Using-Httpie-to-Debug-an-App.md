@@ -1,12 +1,15 @@
 ---
-title: Jump Easily Between Folders Using Autojump
+title: Using Httpie to Debug an App
 tags: [Development]
-description: Jump Easily Between Folders Using Autojump
+description: Using Httpie to Debug an App
 ---
 
-[Autojump](https://github.com/wting/autojump) makes it very easy to navigate between folders in cli. 
-It automatically indexes the most used directories and guess which one you mean.
+[httpie](https://github.com/jkbrzt/httpie) is very useful for genrating web requests
+and debugging an app. It is similiar to cURL but the interface is much more elegant.
 
-* ```j [folder]``` - jumps into folder.
-* ```jc [folder]``` - jumps into sub-directory.
-* ```jo [folder]``` - opens folder in file explorer.
+For example to send a simple get request to localhost, port 3002:
+
+ ```http :3002/sumTable/3```
+
+
+ The defaulting JSON is formatted to be readable by default.

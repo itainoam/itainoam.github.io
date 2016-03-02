@@ -1,5 +1,6 @@
 ---
 name: Itai Noam
 ogp:
-twitter: 
+twitter:
 ---
+http://www.itainoam.com/
