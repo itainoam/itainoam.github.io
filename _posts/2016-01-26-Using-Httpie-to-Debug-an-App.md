@@ -11,5 +11,9 @@ For example to send a simple get request to localhost, port 3002:
 
  ```http :3002/sumTable/3```
 
-
  The defaulting JSON is formatted to be readable by default.
+
+
+To add HTTP headers: ```Name:Value```  
+
+To add URL params: ```name == value```

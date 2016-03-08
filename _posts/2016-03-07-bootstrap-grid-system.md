@@ -3,7 +3,11 @@ title: Bootstrap Grid System
 tags: [Development]
 description:  Bootstrap Grid System
 ---
-#### A few notes about the Bootstrap grid system
+
+Yesterday I run into a problem positioning elements exactly where I need them on the page.
+I decided to spend a little time to close my gaps in understanding of the Bootstrap Grid System.
+
+**Some pointers:**
 
 * Every page must have ```.container``` div for a wrapper
 * The ```.container``` div adds padding of 15px on the left and right.
