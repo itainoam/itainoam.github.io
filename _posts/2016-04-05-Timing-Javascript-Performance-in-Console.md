@@ -1,5 +1,5 @@
 ---
-title: Timing a 
+title:  Timing Javascript Performance in Console 
 tags: [JavaScript]
 description:  Timing Javascript Performance in Console 
 ---
